@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos de Limpieza</title>
+    <link rel="stylesheet" href="./proyectofinal.css">
+
+</head>
+<body>
+    <header>
+        <h1>Tienda de Limpieza</h1>
+        <div class="carrito">
+            🛒 Carrito: <span id="total">0</span> productos
+        </div>
+    </header>
+
+    <main>
+        <div id="productos" class="productos-container">
+            <!-- Los productos se generarán desde JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tienda de Limpieza</p>
+    </footer>
+
+    <script src="./proyectofinal.js"></script>
+</body>
+</html>
